@@ -41,7 +41,6 @@
       "modelId": "litert-community/Gemma3-1B-IT",
       "url": "https://www.dropbox.com/scl/fi/drsasv546sc7gmkkat4x2/Gemma3-1B-IT_multi-prefill-seq_q4_ekv2048.task?rlkey=i4l3v1b2zt7889yrvtpfszxju&st=w21mgx2g&dl=1",
       "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q4_ekv2048.task",
-      "url": "https://www.dropbox.com/scl/fi/drsasv546sc7gmkkat4x2/Gemma3-1B-IT_multi-prefill-seq_q4_ekv2048.task?rlkey=i4l3v1b2zt7889yrvtpfszxju&st=w21mgx2g&dl=1",
       "description": "A variant of [google/Gemma-3-1B-IT](https://huggingface.co/google/Gemma-3-1B-IT) with 4-bit quantization ready for deployment on Android using the [MediaPipe LLM Inference API](https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference)",
       "sizeInBytes": 554661246,
       "estimatedPeakMemoryInBytes": 2147483648,
