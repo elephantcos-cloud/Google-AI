@@ -903,7 +903,7 @@ constructor(
         if (modelAllowlist == null) {
           // Load from github.
           var version = BuildConfig.VERSION_NAME.replace(".", "_")
-          val url = getAllowlistUrl(version)
+          val url = "https://raw.githubusercontent.com/elephantcos-cloud/Google-AI/refs/heads/main/model_allowlist.json"
           Log.d(TAG, "Loading model allowlist from internet. Url: $url")
           val data = getJsonResponse<ModelAllowlist>(url = url)
           modelAllowlist = data?.jsonObj
